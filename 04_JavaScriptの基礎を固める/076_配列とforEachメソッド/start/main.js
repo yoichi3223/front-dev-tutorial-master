@@ -27,3 +27,6 @@ main(arry,test1);
 //   console.log(i);
 
 // });
+arry.forEach(function(v){
+console.log(v);
+})

@@ -6,5 +6,7 @@ let concaSta = "";
 for(let c of str){
   concaSta += `<span class = "char">${c}</span>`;
 }
+
 el.innerHTML = concaSta;
 });
+

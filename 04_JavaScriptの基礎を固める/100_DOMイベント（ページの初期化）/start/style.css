@@ -9,6 +9,6 @@ strong {
 }
 
 .done::before {
-  content: '✔';
+content: '✔';
 }
 /*# sourceMappingURL=style.css.map */

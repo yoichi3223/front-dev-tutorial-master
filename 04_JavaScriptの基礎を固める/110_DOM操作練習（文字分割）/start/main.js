@@ -10,9 +10,20 @@
 // el.innerHTML = concaSta;
 // });
 
-function food(){
-  console.log("新しい仕事の始まり。")
-  console.log("カレーを食べてがんばりましょう")
+function food(menu){
+  console.log("新しい仕事の始まり。");
+  console.log("カレーを食べてがんばりましょう");
+ 
+  const foods = ["カレー","ラーメン","うどん"];
+  console.log(foods[0])
+
+  if(menu === foods[0]){
+    console.log(`今夜のメニューは${menu}です`)
+  }else{
+    console.log("今夜はカレーかうどんです");
+  }
+
+
 }
 
 function newyear(){

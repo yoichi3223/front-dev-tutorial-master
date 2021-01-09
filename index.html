@@ -1,26 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      [class="test1"] {
+        background-color: aquamarine !important;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+      }
 
-<table border="1" class = "test-table">
-
-<tr>
-<th class = "color_th" rowspan = "2">テスト</th>
-<th class = "color_th">テスト</th>
-<td colspan = "4">フロントエンジニアとしてがんばるぞ</td>
-</tr>
-<tr>
-<th class = "color_th">テスト</th>
-<td colspan = "4">フロントエンジニアとしてがんばるぞ</td>
-
-</tr>
-
-</table>
-</body>
+      .test1 > p {
+        color: seagreen;
+      }
+      .test1 > p:hover {
+        color: orange;
+      }
+      .test2 {
+        background-color: red;
+      }
+      p.gijiclass::after {
+        content: "あああ";
+      }
+    </style>
+  </head>
+  <body>
+    <p class="gijiclass">
+      これはテスト1 <br />
+      これはテスト2
+    </p>
+    <div class="test2">
+      <p class="paragraf1">
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+    </div>
+    <div class="test1">
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+      <p>
+        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
+      </p>
+    </div>
+  </body>
 </html>

@@ -1,44 +1,51 @@
 process.stdin.resume();
-process.stdin.setEncoding('utf8');
+process.stdin.setEncoding("utf8");
 // Your code here!
-const sports = [{
+
+//連想配列
+const test = [["A"], ["B"]];
+console.log(test);
+
+const sports = [
+  {
     name: "MMA",
-    country: "usa"
+    country: "usa",
+    players: { player1: "a", player2: "b", player3: "c", player4: "d" },
   },
   {
     name: "soccer",
-    country: "usa"
+    country: "usa",
   },
   {
     name: "tennis",
-    country: "usa"
+    country: "usa",
   },
   {
     name: "swiming",
-    country: "usa"
+    country: "usa",
   },
   {
     name: "kickboxing",
-    country: "usa"
+    country: "usa",
   },
   {
     name: "karate",
     country: "usa",
-    commision: ["UFC", "Belltor", "RIZIN", "shoot", "DEEP", "ZST"]
-  }
-]
-
+    commision: ["UFC", "Belltor", "RIZIN", "shoot", "DEEP", "ZST"],
+  },
+];
+console.log(sports[0].country);
 const s = sports[5].commision;
 
 //  for(let i of s){
 //      console.log(i);
 //  }
 
-let i = 0
+let i = 0;
 
 while (i < s.length) {
   console.log(s[i]);
-  i += 1
+  i += 1;
 }
 
 // function sport(){

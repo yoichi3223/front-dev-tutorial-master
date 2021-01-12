@@ -4,73 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      [class="test1"] {
-        margin: 0 auto;
-        width: 70%;
-        text-align: center;
-        background-color: aquamarine !important;
-      }
-
-      .test1 > p {
-        color: seagreen;
-      }
-      .test1 > p:hover {
-        color: orange;
-      }
-      .test2 {
-        background-color: red;
-      }
-      p.gijiclass::after {
-        content: "あああ";
-      }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   </head>
   <body>
-    <p class="gijiclass">
-      これはテスト1 <br />
-      これはテスト2
-    </p>
-    <div class="test2">
-      <p class="paragraf1">
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-    </div>
-    <div class="test1">
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-      <p>
-        これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。これはテスト。
-      </p>
-    </div>
+    <div id="app">{{ message }}</div>
+
+    // var app = new Vue({ el: '#app', data: { message: 'Hello Vue!' } }) const
+    app1 = { data(){ return { message:"hello" } }, } app1 = vue.createApp(app1)
+    app.mount("#app1")
   </body>
 </html>
